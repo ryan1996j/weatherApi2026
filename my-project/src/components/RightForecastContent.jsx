@@ -1,6 +1,10 @@
+import HourlyWeatherLists from "./HourlyWeatherLists";
+
 const RightForecastContent = () => {
   return (
-    <div className="w-8/12 h-dvh bg-blue-500 p-4">right weather forecast</div>
+    <div className="w-8/12  bg-blue-500 pt-4 ">
+      <HourlyWeatherLists />
+    </div>
   );
 };
 

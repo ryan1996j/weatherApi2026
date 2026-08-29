@@ -3,7 +3,7 @@ import SearchingCity from "./SearchingCity";
 
 const SideContent = () => {
   return (
-    <div className="w-2/10  p-2.5 bg-gray-800">
+    <div className="w-2/10 h-full  p-2.5 pb-4">
       <SearchingCity />
       <FavouriteCitiesLists />
     </div>

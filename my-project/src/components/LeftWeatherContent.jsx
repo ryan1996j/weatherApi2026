@@ -1,9 +1,13 @@
+import FullMoonSection from "./FullMoonSection";
 import SevereWeatheAlert from "./SevereWeatheAlert";
+import TenDaysForecastLists from "./TenDaysForecastLists";
 
 const LeftWeatherContent = () => {
   return (
-    <div className="w-4/12 h-dvh bg-amber-950 p-4">
+    <div className="w-4/12  p-4 ">
       <SevereWeatheAlert />
+      <TenDaysForecastLists />
+      <FullMoonSection />
     </div>
   );
 };

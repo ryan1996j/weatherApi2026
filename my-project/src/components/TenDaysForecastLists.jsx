@@ -1,5 +1,13 @@
+import TenDaysForecast from "./TenDaysForecast";
+
 const TenDaysForecastLists = () => {
-  return <div></div>;
+  return (
+    <>
+      <section className="rounded-xl p-2">
+        <TenDaysForecast />
+      </section>
+    </>
+  );
 };
 
 export default TenDaysForecastLists;

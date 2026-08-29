@@ -9,7 +9,7 @@ const CenterContext = () => {
       <section className="w-3/4 bg-blue-800 mx-auto">
         <CenterLayout>
           <Header />
-          <div className="flex flex-between ">
+          <div className="flex justify-between ">
             <LeftWeatherContent />
             <RightForecastContent />
           </div>
