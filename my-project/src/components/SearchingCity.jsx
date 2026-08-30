@@ -14,8 +14,8 @@ const SearchingCity = () => {
           //   value={search}
           //   onChange={(e) => setSearch(e.target.value)}
           aria-label="Search"
-          className="w-full rounded-xl bg-black  py-2 pl-10 pr-4
-                   text-gray-800 placeholder:text-gray-400 font-semibold
+          className="w-full rounded-xl bg-black text-white  py-2 pl-10 pr-4
+                    placeholder:text-gray-400 font-semibold
                    outline-none
                    transition
                    focus:border-blue-500

@@ -6,7 +6,7 @@ import RightForecastContent from "./RightForecastContent";
 const CenterContext = () => {
   return (
     <>
-      <section className="w-3/4 bg-blue-800 mx-auto">
+      <section className="w-3/4  mx-auto">
         <CenterLayout>
           <Header />
           <div className="flex justify-between ">
