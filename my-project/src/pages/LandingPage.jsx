@@ -9,7 +9,15 @@ const LandingPage = () => {
     //   testing
     // </div>
     <>
-      <section className="flex justify-between w-full text-white bg-blue-400">
+      <section
+        className="
+        flex
+        w-full
+        justify-between
+        bg-[var(--bg-primary)]
+        text-[var(--text-primary)]
+      "
+      >
         <SideContent />
         <CenterContext />
       </section>

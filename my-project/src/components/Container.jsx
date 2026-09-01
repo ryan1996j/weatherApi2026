@@ -1,5 +1,5 @@
 const Container = ({ children }) => {
-  return <div className="text-2xl text-fuchsia-600">{children}</div>;
+  return <div className="text-2xl">{children}</div>;
 };
 
 export default Container;

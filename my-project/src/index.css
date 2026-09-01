@@ -1,0 +1,50 @@
+:root {
+  /* General theme */
+ --bg-primary: linear-gradient(
+    135deg,
+    #bfdbfe 0%,
+    #dbeafe 50%,
+    #eff6ff 100%
+  );
+
+  /* Header / secondary areas */
+   --bg-secondary: #ffffff;
+
+  --text-primary: #172033;
+  --text-secondary: #64748b;
+
+  --accent: #2563eb;
+  --border: #e2e8f0;
+
+  /* Weather alert */
+  --alert-bg: #fee2e2;
+  --alert-icon: #dc2626;
+  --alert-title: #b91c1c;
+  --alert-text: #374151;
+  --alert-muted: #6b7280;
+    --glass-bg: rgba(255, 255, 255, 0.35);
+  --glass-border: rgba(255, 255, 255, 0.4);
+   --card-shadow: 0 4px 20px rgba(15, 23, 42, 0.08);
+}
+
+.dark {
+  /* General theme */
+  --bg-primary: #0b1220;
+  --bg-secondary: #111827;
+
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+
+  --accent: #60a5fa;
+  --border: #263449;
+
+  /* Weather alert */
+  --alert-bg: #450a0a;
+  --alert-icon: #f87171;
+  --alert-title: #fca5a5;
+  --alert-text: #e5e7eb;
+  --alert-muted: #9ca3af;
+   --glass-bg: rgba(255, 255, 255, 0.06);
+  --glass-border: rgba(255, 255, 255, 0.1);
+   --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}

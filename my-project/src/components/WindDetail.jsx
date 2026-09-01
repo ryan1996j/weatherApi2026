@@ -2,35 +2,104 @@ const WindDetail = () => {
   return (
     <div>
       <section className="my-4">
-        <div className="rounded-xl border border-gray-200 bg-white px-4 pt-4 shadow-sm">
+        <div
+          className="
+      rounded-2xl
+      border
+      border-[var(--glass-border)]
+      bg-[var(--glass-bg)]
+      px-4
+      pt-4
+      shadow-xl
+      backdrop-blur-md
+    "
+        >
           {/* Header */}
-          <p className="text-xs font-bold tracking-wide text-gray-500">WIND</p>
+          <p
+            className="
+        text-xs
+        font-bold
+        tracking-wide
+        text-[var(--text-secondary)]
+      "
+          >
+            WIND
+          </p>
 
           {/* Content */}
-          <div className=" flex items-center gap-4">
-            {/* Moon information */}
+          <div className="flex items-center gap-4">
+            {/* Wind information */}
             <div className="flex-1">
-              <div className="flex items-center justify-between border-b border-gray-600 py-1">
-                <p className="text-sm text-gray-500">Wind</p>
-                <p className="text-sm font-semibold text-gray-800">7 km/h</p>
+              <div
+                className="
+            flex
+            items-center
+            justify-between
+            border-b
+            border-[var(--border)]
+            py-1
+          "
+              >
+                <p className="text-sm text-[var(--text-secondary)]">Wind</p>
+
+                <p className="text-sm font-semibold text-[var(--text-primary)]">
+                  7 km/h
+                </p>
               </div>
 
-              <div className="flex items-center justify-between border-b border-gray-600 py-1">
-                <p className="text-sm text-gray-500">Gusts</p>
-                <p className="text-sm font-semibold text-gray-800">17 km/h</p>
+              <div
+                className="
+            flex
+            items-center
+            justify-between
+            border-b
+            border-[var(--border)]
+            py-1
+          "
+              >
+                <p className="text-sm text-[var(--text-secondary)]">Gusts</p>
+
+                <p className="text-sm font-semibold text-[var(--text-primary)]">
+                  17 km/h
+                </p>
               </div>
 
-              <div className="flex items-center justify-between border-b border-gray-600 py-1">
-                <p className="text-sm text-gray-500">Direction</p>
-                <p className="text-sm font-semibold text-gray-800">189 S</p>
+              <div
+                className="
+            flex
+            items-center
+            justify-between
+            border-b
+            border-[var(--border)]
+            py-1
+          "
+              >
+                <p className="text-sm text-[var(--text-secondary)]">
+                  Direction
+                </p>
+
+                <p className="text-sm font-semibold text-[var(--text-primary)]">
+                  189° S
+                </p>
               </div>
             </div>
 
-            {/* Moon image */}
-            <div className="flex h-28 w-28 shrink-0  rounded-full bg-gray-50">
+            {/* Wind icon/image */}
+            <div
+              className="
+          flex
+          h-28
+          w-28
+          shrink-0
+          items-center
+          justify-center
+          rounded-full
+          bg-[var(--moon-bg)]
+        "
+            >
               <img
                 src="/moon.png"
-                alt="Full moon"
+                alt="Wind"
                 className="h-24 w-24 object-contain"
               />
             </div>

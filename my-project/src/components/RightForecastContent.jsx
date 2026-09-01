@@ -32,7 +32,9 @@ const RightForecastContent = () => {
             </div>
           </div>
         </div>
-        <div className="bg-amber-400 w-1/2 h-[200px]">mfsm,s.</div>
+        <div className="bg-white/20 backdrop-blur-md border border-white/30 rounded-2xl w-1/2 h-[200px]">
+          mfsm,s.
+        </div>
       </div>
     </div>
   );

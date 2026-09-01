@@ -160,21 +160,51 @@ const HourlyWeather = () => {
   ];
 
   return (
-    <section className="w-full rounded-xl bg-white px-2">
-      <h3 className="pt-3 text-xs font-semibold uppercase tracking-wide text-gray-500">
+    <section
+      className="
+    w-full
+    rounded-2xl
+    border
+    border-[var(--glass-border)]
+    bg-[var(--glass-bg)]
+    px-2
+    backdrop-blur-md
+    shadow-xl
+  "
+    >
+      {/* Header */}
+      <h3
+        className="
+      pt-3
+      text-xs
+      font-semibold
+      uppercase
+      tracking-wide
+      text-[var(--text-secondary)]
+    "
+      >
         Hourly Weather
       </h3>
 
-      <div className="flex gap-6 overflow-x-auto py-4 hide-scrollbar">
+      {/* Hourly weather */}
+      <div className="hide-scrollbar flex gap-6 overflow-x-auto py-4">
         {hourlyWeather.map((weather) => (
           <div key={weather.time} className="w-14 shrink-0 text-center text-xs">
-            <p className="font-medium text-gray-600">{weather.time}</p>
+            {/* Time */}
+            <p className="font-medium text-[var(--text-secondary)]">
+              {weather.time}
+            </p>
 
+            {/* Weather icon */}
             <p className="my-2 text-2xl">{weather.condition}</p>
 
-            <p className="text-gray-600">{weather.rain}</p>
+            {/* Rain */}
+            <p className="text-[var(--text-secondary)]">{weather.rain}</p>
 
-            <p className="mt-1 font-semibold text-gray-600">{weather.temp}</p>
+            {/* Temperature */}
+            <p className="mt-1 font-semibold text-[var(--text-primary)]">
+              {weather.temp}
+            </p>
           </div>
         ))}
       </div>

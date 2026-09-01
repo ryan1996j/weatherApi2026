@@ -29,34 +29,103 @@
 const FullMoonSection = () => {
   return (
     <section className="my-4">
-      <div className="rounded-xl border border-gray-200 bg-white px-4 pt-4 shadow-sm">
+      <div
+        className="
+      rounded-2xl
+      border
+      border-[var(--glass-border)]
+      bg-[var(--glass-bg)]
+      px-4
+      pt-4
+      shadow-xl
+      backdrop-blur-md
+    "
+      >
         {/* Header */}
-        <p className="text-xs font-bold tracking-wide text-gray-500">
+        <p
+          className="
+        text-xs
+        font-bold
+        tracking-wide
+        text-[var(--text-secondary)]
+      "
+        >
           FULL MOON
         </p>
 
         {/* Content */}
-        <div className=" flex items-center gap-4">
+        <div className="flex items-center gap-4">
           {/* Moon information */}
           <div className="flex-1">
-            <div className="flex items-center justify-between border-b border-gray-600 py-1">
-              <p className="text-sm text-gray-500">Illumination</p>
-              <p className="text-sm font-semibold text-gray-800">100%</p>
+            <div
+              className="
+            flex
+            items-center
+            justify-between
+            border-b
+            border-[var(--border)]
+            py-1
+          "
+            >
+              <p className="text-sm text-[var(--text-secondary)]">
+                Illumination
+              </p>
+
+              <p className="text-sm font-semibold text-[var(--text-primary)]">
+                100%
+              </p>
             </div>
 
-            <div className="flex items-center justify-between border-b border-gray-600 py-1">
-              <p className="text-sm text-gray-500">Moonrise</p>
-              <p className="text-sm font-semibold text-gray-800">18:44</p>
+            <div
+              className="
+            flex
+            items-center
+            justify-between
+            border-b
+            border-[var(--border)]
+            py-1
+          "
+            >
+              <p className="text-sm text-[var(--text-secondary)]">Moonrise</p>
+
+              <p className="text-sm font-semibold text-[var(--text-primary)]">
+                18:44
+              </p>
             </div>
 
-            <div className="flex items-center justify-between border-b border-gray-600 py-1">
-              <p className="text-sm text-gray-500">Next full moon</p>
-              <p className="text-sm font-semibold text-gray-800">30 days</p>
+            <div
+              className="
+            flex
+            items-center
+            justify-between
+            border-b
+            border-[var(--border)]
+            py-1
+          "
+            >
+              <p className="text-sm text-[var(--text-secondary)]">
+                Next full moon
+              </p>
+
+              <p className="text-sm font-semibold text-[var(--text-primary)]">
+                30 days
+              </p>
             </div>
           </div>
 
           {/* Moon image */}
-          <div className="flex h-28 w-28 shrink-0  rounded-full bg-gray-50">
+          <div
+            className="
+          flex
+          h-28
+          w-28
+          shrink-0
+          items-center
+          justify-center
+          rounded-full
+          bg-[var(--moon-bg)]
+        "
+          >
             <img
               src="/moon.png"
               alt="Full moon"
